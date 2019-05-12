@@ -1,0 +1,134 @@
+:root {
+ --c1: #3F2E56;
+ --c2: #4F6D7A;
+ --c3: #DAD7CD;
+ --c4: #F5AC72;
+ --c5: #F26419;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ color: var(--c5);
+ padding: 5vw;
+}
+
+h1 {
+ font-size: 2.5em;
+ font-weight: bold;
+}
+
+h2 {
+ font-size: 1.8em;
+ /* font-weight: bold; */
+}
+
+h3 {
+ font-size: 1em;
+}
+
+p {
+ color: var(--c1);
+ font-size: 1.3em;
+ line-height: 1.3em;
+ padding: 5vw;
+}
+
+a {
+ text-decoration: none;
+ color: var(--c5);
+ font-weight: bold;
+ font-size: 1.3em;
+}
+
+.banner {
+ background: url("https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") center/cover fixed no-repeat;
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-end;
+ align-items: center;
+}
+
+.banner h1,
+.banner h2 {
+ text-align: center;
+}
+
+#navbar {
+ position: fixed;
+ width: 100%;
+ margin: 0px auto;
+ z-index: 1;
+}
+
+#navbar ul {
+ text-align: center;
+}
+
+#navbar li {
+ padding: 5px;
+ background: white;
+}
+
+#about_me {
+ width: 100%;
+ height: 100vh;
+}
+
+#portrait-img {
+ width: 100%;
+}
+
+.project-tile {
+ margin-bottom: 3vw;
+}
+
+#github {
+ width: 100%;
+ transform: scale(0.8);
+}
+
+#github:hover {
+ transform: scale(1);
+}
+
+#twitter {
+ width: 20vw;
+}
+
+#facebook {
+ width: 21vw;
+}
+
+#instagram {
+ width: 19vw;
+}
+
+#twitter:hover,
+#facebook:hover,
+#instagram:hover {
+ transform: scale(1.2);
+}
+
+#social {
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+}
+
+footer {
+ background-color: var(--c2)
+}
+
+footer section,
+footer a {
+ color: white;
+ text-align: center;
+ padding: 5vw;
+}
