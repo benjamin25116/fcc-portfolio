@@ -1,0 +1,68 @@
+@media screen and (min-width: 767px) {
+ h1 {
+  font-size: 4em;
+ }
+
+ .banner h2 {
+  font-size: 2em;
+ }
+
+ #navbar ul {
+  display: flex;
+  justify-content: space-evenly;
+ }
+
+ #navbar li {
+  padding: 3vw;
+  background: transparent;
+ }
+
+ #navbar {
+  background: black;
+ }
+
+ #about_me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%
+ }
+
+ #portrait-img {
+  width: 50%;
+  height: 50%;
+ }
+
+ #projects {
+  display: grid;
+  grid-template: repeat(4, auto) / 50vw 50vw;
+ }
+
+ #projects-header {
+  grid-row: 1/2;
+  grid-column: 2/3;
+ }
+
+ #profile-link {
+  grid-row: 1/2;
+  grid-column: 1/2;
+ }
+
+ .project-tile {
+  margin: 2px;
+ }
+
+ #social img {
+  max-width: 80px;
+ }
+
+ #contact_me {
+  grid-row: 4/5;
+  grid-column: 1/2;
+ }
+
+ #profile-link-2 {
+  grid-row: 4/5;
+  grid-column: 2/3;
+ }
+}

@@ -97,6 +97,15 @@ a {
  transform: scale(1);
 }
 
+#codepen {
+ width: 100%;
+ transform: scale(0.8);
+}
+
+#codepen:hover {
+ transform: scale(1);
+}
+
 #twitter {
  width: 20vw;
 }
