@@ -1,0 +1,19 @@
+.banner h2 {
+ font-size: 1em;
+}
+
+p {
+ font-size: 1.2em;
+}
+
+article p::first-line {
+ font-weight: bold;
+}
+
+#social {
+ margin: 5vh 0px;
+}
+
+footer li {
+ padding: 1vw;
+}
